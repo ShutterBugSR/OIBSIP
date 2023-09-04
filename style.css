@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     min-height :100vh;
-    background: linear-gradient(135deg,#153677,#4e085f);
+    background: linear-gradient(135deg,#3e6a82,#080e42);
     padding: 10px;
 
 }
@@ -17,7 +17,7 @@
 .todo{
     width: 100%;
     max-width: 540px;
-    background: white;
+    background: rgb(146, 96, 96);
     margin: 100px auto 20px;
     padding:40px 30px 70px;
     border-radius: 10px;
@@ -27,6 +27,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: white;
 }
 
 .row{
@@ -65,6 +68,8 @@ input{
         font-size: 17px;
         padding: 12px 8px 12px 50px;
         position: relative;
+        color: white;
+
 
     }
 
@@ -82,7 +87,7 @@ input{
     }
 
     ul li.checked{
-        color: #555;
+        color:#555;
         text-decoration: line-through;
     }
     ul li.checked::before{
